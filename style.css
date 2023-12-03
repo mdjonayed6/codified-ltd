@@ -1,3 +1,45 @@
-body {
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*common style*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.624), rgba(0, 0, 0, 0.365)), url("./images/header-banner.jpg");
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header-item h4 {
+    font-size: 30px;
+}
+
+#header-item h1 {
+    font-size: 50px;
+}
+
+#header-item p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.primary-btn {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.primary-btn:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid firebrick;
 }
