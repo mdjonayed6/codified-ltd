@@ -76,3 +76,26 @@ header {
     margin: 10px;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-top: 41px;
+    align-items: center;
+}
+
+.half-container {
+    width: 50%;
+}
+
+.half-container img {
+    width: 90%;
+}
+
+.fa-solid {
+    font-size: 31px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
